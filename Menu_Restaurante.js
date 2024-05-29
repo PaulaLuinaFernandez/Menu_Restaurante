@@ -28,7 +28,7 @@ const elegirMenu = () => {
         const precioSeleccionado = precios[seleccion];
         const comentarioAleatorio = comentarios[Math.floor(Math.random() * comentarios.length)];
 
-        alert(`${comentarioAleatorio}`);
+        alert(`${comentarioAleatorio} Su precio es ${precioSeleccionado} euros.`);
         return precioSeleccionado;
     }
 
